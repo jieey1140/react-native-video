@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "web": "expo run:web",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "windows": "react-native run-windows",
