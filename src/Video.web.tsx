@@ -415,5 +415,4 @@ const useMediaSession = (
   }, [progress, duration, playbackRate, enabled]);
 };
 
-Video.displayName = 'Video';
 export default Video;
