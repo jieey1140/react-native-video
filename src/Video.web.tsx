@@ -335,7 +335,7 @@ const useMediaSession = (
   nativeRef: RefObject<HTMLVideoElement>,
   showNotification: boolean,
 ) => {
-  const isPlaying = !nativeRef.current?.paused ?? false;
+  const isPlaying = !nativeRef.current?.paused;
   const progress = nativeRef.current?.currentTime ?? 0;
   const duration = Number.isFinite(nativeRef.current?.duration)
     ? nativeRef.current?.duration
